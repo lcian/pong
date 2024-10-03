@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -I./vendor/raylib-5.0_linux_amd64/include
+    - -I./vendor/raylib-cpp-5.0.2/include
+    - -Wall 
+    - -Wextra 
+    - -Wconversion 
+    - -Wsign-conversion 
+    - -Werror 
+    - -pedantic-errors 
+    - -std=c++23
